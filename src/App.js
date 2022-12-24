@@ -1,9 +1,9 @@
-import { useReducer } from "react";
 import { Provider } from "react-redux";
 import { createStore } from "redux";
 import Users from './pages/Users';
 import Home from './pages/Home';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import useReducer from './store/reducer/user';
 
 
 function App() {
